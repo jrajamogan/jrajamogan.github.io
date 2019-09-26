@@ -1,0 +1,15 @@
+*{
+ box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1{
+  color: red;
+}
+.quote{
+  display: flex;
+  justify-content: center;
+}
