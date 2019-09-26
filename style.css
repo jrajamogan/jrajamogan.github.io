@@ -51,3 +51,38 @@ h1{
 .card a:hover{
   color:black;
 }
+
+.sig{
+  line-height: 52px;
+  /* font-family: 'Great Vibes', cursive; */
+  padding: 0 10px;
+  background-color: #ececec;
+  pointer-events: none;
+}
+
+.button.has-icon{
+  height: 50px;
+  margin-right: 20px;
+}
+
+.button.is-primary.is-inverted.is-outlined.button.has-icon:hover img{
+  background: #00d1b2;
+  border: 1px solid #00d1b2
+}
+/* .button.is-primary.is-inverted.is-outlined.button.has-icon.gitHub:hover img{
+  border-radius:25px;
+} */
+
+.at{
+  font-size: 2.5em;
+}
+
+.navbar{
+  background-color: #ececec;
+}
+a.navbar-item.blog:hover{
+  color: #ff3860;
+}
+a.navbar-item.home:hover{
+  color: #00d1b2;
+}
