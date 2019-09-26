@@ -13,3 +13,41 @@ h1{
   display: flex;
   justify-content: center;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container.max-width{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quoteBox{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 32px;
+  margin: 10px 0;
+}
+/* .quoteBox title{
+  font-size: 2em;
+} */
+
+.card{
+  border: 1px solid white;
+  border-radius: 4px;
+  box-shadow: none;
+  background-color: transparent;
+  margin: 20px 0;
+}
+
+.card a{
+  color: white;
+}
+.card a:hover{
+  color:black;
+}
